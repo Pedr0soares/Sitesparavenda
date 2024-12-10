@@ -1,0 +1,467 @@
+/* Paleta: Preto, Cinza e Vermelho */
+body {
+    margin: 0;
+    font-family: 'Poppins',Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #000000;
+}
+
+header {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+}
+
+.logos {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+
+.logo-left,
+.logo-right {
+    width: 1px;
+    height: 5px;
+    border-radius: 5000%;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main {
+    padding: 20px;
+}
+
+.plans h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    
+    
+}
+
+.plan-container {
+    display: grid;
+    gap: 20px;
+    margin-top: -560px;
+}
+
+.plan-card {
+    background: #1f1f1f;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.plan-card:hover {
+    transform: scale(1.05);
+}
+
+.plan-card h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.choose-plan {
+    background: #ff0404;
+    border: none;
+    padding: 10px 20px;
+    color: #fcfcfc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.choose-plan:hover {
+    background: #ffffff;
+}
+
+.gallery {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold';
+    margin-top: 40px;
+}
+
+.gallery h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.photos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -30px;
+}
+
+.photos img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #000000;
+    color: #aaa;
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .locations {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold';
+    display: flex;
+    flex-direction: column; /* Coloca as localizações uma abaixo da outra */
+    align-items: center;
+    gap: 30px; /* Espaçamento entre os blocos */
+  }
+  
+  .location {
+    max-width: 300px;
+    margin-top: -30px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold';
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  a {
+    margin-top: 10px;
+    display: inline-block;
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-icons {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold';
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icon img {
+    width: 40px; /* Tamanho do ícone */
+    height: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .icon img:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+    filter: brightness(1.2); /* Deixa o ícone mais brilhante */
+  }
+  
+  /* Estilo Geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Barra Superior */
+  .top-bar {
+    position: fixed; /* Fixa a barra no topo da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Altura da barra */
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+    display: flex;
+    justify-content: space-between; /* Espaça as logos nas extremidades */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 0 20px; /* Espaçamento interno */
+    z-index: 1000; /* Garante que a barra fique acima do conteúdo */
+  }
+  
+  /* Logos */
+  .logo {
+    width: 50px; /* Largura das logos */
+    height: 50px; /* Altura das logos */
+    border-radius: 50%; /* Deixa as logos redondas */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço */
+    cursor: pointer; /* Mostra que são clicáveis */
+    transition: transform 0.3s ease; /* Animação ao passar o mouse */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Aumenta a logo ao passar o mouse */
+  }
+  
+  /* Adiciona espaço ao conteúdo para não sobrepor a barra */
+  main {
+    margin-top: 70px; /* Compensa a altura da barra */
+    padding: 20px;
+  }
+  
+  /* Barra Superior */
+.top-bar {
+    position: fixed; /* Fixa no topo da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Altura da barra */
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 2px 5px #000000; /* Sombra leve */
+    display: flex;
+    justify-content: space-between; /* Espaça as logos */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 0 20px;
+    z-index: 1000; /* Garante que fique acima do conteúdo */
+  }
+  
+  /* Logos */
+  .logo {
+    width: 50px; /* Tamanho padrão */
+    height: 50px;
+    border-radius: 50%; /* Deixa as logos redondas */
+    object-fit: cover; /* Ajusta a imagem */
+    cursor: pointer; /* Mostra que as logos são clicáveis */
+    transition: transform 0.3s ease; /* Efeito suave ao passar o mouse */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Aumenta ao passar o mouse */
+  }
+  
+  /* Menu Azul Escuro */
+  .menu-bar {
+    background-color: #131b28; /* Azul escuro */
+    padding: 5px 0; /* Reduz o espaçamento vertical */
+    height: 40px; /* Ajusta a altura da barra */
+    box-shadow: 0 2px 4px #131b28; /* Sombra para destaque */
+    margin-top: 45px; /* Espaçamento abaixo da barra superior */
+  }
+  
+  .menu-bar ul {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Exibe os itens em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin: 0;
+    padding: 0;
+    gap: 30px; /* Espaçamento entre os itens */
+  }
+  
+  .menu-bar li {
+    display: inline; /* Cada item em linha */
+  }
+  
+  .menu-bar a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #ffffff; /* Texto branco */
+    font-size: 18px; /* Tamanho do texto */
+    font-weight: bold; /* Negrito */
+    padding: 8px 15px; /* Espaçamento interno */
+    border: 2px solid transparent; /* Bordas invisíveis inicialmente */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: all 0.3s ease; /* Suaviza as transições */
+  }
+  
+  .menu-bar a:hover {
+    background-color: red; /* Cor de fundo ao passar o mouse */
+    border: 2px solid #ffffff; /* Mostra borda branca */
+    color: #ffcc00; /* Texto com destaque amarelo */
+  }
+
+  .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #131b28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.academy-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px; /* Ajuste o tamanho do texto conforme necessário */
+    font-weight: bold;
+    color: #131b28; /* Cor do texto, você pode mudar para outra se preferir */
+}
+/* Estilo geral para a imagem do banner */
+.banner-section {
+    width: 100%;
+    overflow: hidden; /* Evita que a imagem ultrapasse os limites do container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Para dar um espaço abaixo da barra fixa */
+}
+
+.banner-mobile {
+    width: 100%; /* Ajusta a largura da imagem para ocupar 100% do container */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 600px; /* Limita a largura máxima em dispositivos móveis */
+}
+
+@media (max-width: 768px) {
+    .banner-mobile {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.containerr {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; 
+  margin-top: -120px;/* Opcional: altura total da janela ou do contêiner */
+}
+
+
+
+
+.bunner11 {
+width: 100%; /* Ajusta a largura da imagem para ocupar 100% do container */
+height: auto; /* Mantém a proporção da imagem */
+max-width: 600px;
+margin-top: -240px;
+
+}
+
+
+.containerr2{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; 
+  margin-top: -100px;
+  margin-bottom: -630px;
+}
+
+
+.bunner12 {
+  width: 100%; /* Ajusta a largura da imagem para ocupar 100% do container */
+  height: auto; /* Mantém a proporção da imagem */
+  max-width: 600px;
+  margin-top: -500px;
+  
+  }
+
+
+  /* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+  .banner-section {
+    width: 100%;
+    overflow: hidden; /* Evita que a imagem ultrapasse os limites do container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+  .banner-mobile {
+    width: 100%; /* Ajusta a largura da imagem para ocupar 100% do container */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 600px; 
+  }
+}
+
+
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+  .bunner11 {
+    width: 100%; /* Ajusta a largura da imagem para ocupar 100% do container */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 600px;
+    margin-top: -340px;
+  }
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+  .containner {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; 
+    margin-top: -120px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .containerr2 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; 
+    margin-top: -100px;
+    margin-bottom: -630px;
+  }
+}
