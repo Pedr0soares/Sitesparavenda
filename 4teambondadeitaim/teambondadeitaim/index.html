@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Bondade</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS media query em um elemento de link -->
+<link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+
+</head>
+<body>
+   
+
+    <section class="banner-section">
+        <img src="bunnercerto.png" alt="Banner da Academia" class="banner-mobile">
+    </section>
+
+    <div class="containerr">
+        <img src="canvaaaa.png" alt="Banner" class="bunner11">
+    </div>
+
+    <main>
+        <section class="plans">
+            <div class="plan-container">
+                <div class="plan-card boxe">
+                    <h4>Team Bondade - Itaim Paulista</h4>
+                    <button class="choose-plan" data-target="motivacao.html">Escolher Plano</button>
+                </div>
+
+                <section class="gallery">
+                  <div class="photos">
+                    <img src="1.jpg" alt="Foto da Academia"style="width: 120px; height: 120px;">
+                    <img src="22.jpg" alt="Foto da Academia"style="width: 120px; height: 120px;">
+                    <img src="mestredalurta2.jpg" alt="Foto da Academia"style="width:  120px; height: 120px;">
+                    <img src="4.jpg" alt="Foto da Academia"style="width:  120px; height: 120px;">
+                </div>
+                </section>
+
+                <div class="containerr2">
+                    <img src="bunner com logo.png" alt="Banner com Logo" class="bunner12">
+                </div>
+
+                <div class="plan-card boxe">
+                    <h4>Studio Motivação - Guaianases</h4>
+                    <button class="choose-plan" data-target="bondade.html">Escolher Plano</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="locations">
+            <div class="location">
+                <h4>Team Bondade</h4>
+                <p>Rua Itajuíbe, 796</p>
+                <p>Itaim Paulista, São Paulo - SP</p>
+                <p>CEP: 08120-470</p>
+                <a href="https://g.co/kgs/RtNNZ4K" target="_blank">Ver no Google Maps</a>
+            </div>
+
+            <div class="location">
+                <h4>Studio Motivação</h4>
+                <p>R. Cruz do Espírito Santo, 771</p>
+                <p>Vila Chabilandia, São Paulo - SP</p>
+                <p>CEP: 08440-470</p>
+                <a href="https://maps.app.goo.gl/sG2zZ6MVbZhpXAEg6" target="_blank">Ver no Google Maps</a>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://api.whatsapp.com/send/?phone=5511964472961" target="_blank" class="icon whatsapp">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/teambondadejj/" target="_blank" class="icon instagram">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            </a>
+        </div>
+
+        <p>&copy; Team Bondade.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll(".choose-plan").forEach(function(button) {
+            button.addEventListener("click", function() {
+                const targetPage = this.getAttribute("data-target");
+                if (targetPage) {
+                    window.location.href = targetPage;
+                } else {
+                    console.error("Erro: O botão não tem o atributo 'data-target'.");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
