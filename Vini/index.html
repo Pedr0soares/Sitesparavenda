@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XVINI - Assista Vídeos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: red;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .video-item {
+            background-color: #222;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .video-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .video-item h2 {
+            font-size: 1rem;
+            margin: 10px 0 5px;
+        }
+
+        .video-item p {
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+
+        .video-item a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: red;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .video-item a:hover {
+            background-color: darkred;
+        }
+
+        footer {
+            background-color: red;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .video-item h2 {
+                font-size: 0.9rem;
+            }
+
+            .video-item p {
+                font-size: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>XVINI</h1>
+        <p>Plataforma Do Melhor Conteúdo De Viados 🔥</p>
+    </header>
+
+    <main>
+        <section class="video-grid">
+            <div class="video-item">
+                <img src="Captura de tela 2024-12-13 195945.png" alt="Video Thumbnail">
+                <h2>Vini Viadinho</h2>
+                <p>Descrição curta do vídeo.</p>
+                <a href="https://youtube.com/shorts/767He9HAXNk?si=u1bmjgx3T8sWDOJL" target="_blank">Assistir </a>
+            </div>
+            <div class="video-item">
+                <img src="Captura de tela 2024-12-13 200023.png" alt="Video Thumbnail">
+                <h2>Vini Gordinho</h2>
+                <p>Descrição curta do vídeo.</p>
+                <a href="https://youtu.be/IOOnFNHSWSc?si=lKwpNH9ZhEAUXWSO" target="_blank">Assistir </a>
+            </div>
+            <div class="video-item">
+                <img src="Captura de tela 2024-12-13 200041.png" alt="Video Thumbnail">
+                <h2>Vini Baitolinha</h2>
+                <p>Descrição curta do vídeo.</p>
+                <a href="https://youtube.com/shorts/J16NDM-YPk4?si=vTWOz0W-bc8_1dzo" target="_blank">Assistir</a>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 XVINI. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
